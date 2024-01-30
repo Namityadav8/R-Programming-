@@ -27,3 +27,6 @@ paste("the list is " , fruits)
 fruits <- c("banana", "apple", "orange", "mango", "lemon")
 print(fruits)
 cat("The list is ", fruits , sep=" ")
+
+x <- TRUE
+class(x)

@@ -15,3 +15,9 @@ b3 <- 10L
 print(class(b3))
 
 
+x <- TRUE
+class(x)
+
+
+
+

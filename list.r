@@ -30,3 +30,27 @@ cat("The list is ", fruits , sep=" ")
 
 x <- TRUE
 class(x)
+
+a <- list(1:10)
+a
+class(a)
+b<-list(10:15)
+b
+class(b)
+
+#storing list in new list 
+thislist <- list("apple", "banana", "cherry")
+
+newlist <- thislist[-1]
+
+
+#Nested list 
+
+
+a<-list(c("sakshi", "Swati") , c(10,10) , c("maths","GK"))
+name(a)<-c("name","marks","Subjects")
+a[["Address"]] <- ("Delhi" , "kashmir")   # addding new elements/sublist
+
+
+
+

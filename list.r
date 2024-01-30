@@ -12,4 +12,18 @@ print(e)
 #names applied for the naming of list 
 list <- list(c("Rahul","Pooja") , c(6,2) , list("MBA","BA"))
 names(list) <- c("Student name","Marks","Courses")
-print(list[3])
+print(list[3][2]) # accessing list by indexing.
+
+numbers <- c(13, 3, 5, 7, 20, 2)
+print()
+fruits <- c("banana", "apple", "orange", "mango", "lemon")
+
+paste("the list is " , fruits)
+#fruits[2] <- "kela"
+#fruits  # another way to print the output in R.
+
+#sort(fruits)  # Sort a string.
+#sort(numbers) # Sort numbers.
+fruits <- c("banana", "apple", "orange", "mango", "lemon")
+print(fruits)
+cat("The list is ", fruits , sep=" ")

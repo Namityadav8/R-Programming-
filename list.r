@@ -51,6 +51,22 @@ a<-list(c("sakshi", "Swati") , c(10,10) , c("maths","GK"))
 name(a)<-c("name","marks","Subjects")
 a[["Address"]] <- ("Delhi" , "kashmir")   # addding new elements/sublist
 
+#convert list into vector
 
 
+my_list <- list(a = 1, b = 2, c = 3)
+
+
+my_vector <- unlist(my_list)
+class(my_vector)
+
+# Print the vector
+print(my_vector)
+
+#adding two list
+
+a <-list("namit" , 23 , TRUE);
+b<-list("yadav", 24 , FALSE)
+c<- list(a,b)
+print(c)
 

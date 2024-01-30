@@ -68,5 +68,13 @@ print(my_vector)
 a <-list("namit" , 23 , TRUE);
 b<-list("yadav", 24 , FALSE)
 c<- list(a,b)
+
+
+
+
+#delete 1st subset of a list
+ 
+c[[1]] <- c[1][-1]
 print(c)
+
 

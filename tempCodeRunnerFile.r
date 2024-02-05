@@ -1,5 +1,3 @@
-my_list <- list(name = "Alice", age = 25)
+my_array <- array(0, dim = c(4, 4, 5))
 
-# Access the 'name' element using the $ sign
-name <- my_list$age
-print(name)
+print(my_array)

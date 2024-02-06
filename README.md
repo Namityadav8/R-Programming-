@@ -18,8 +18,8 @@ Contribution Guidelines: Feel free to contribute your own scripts, exercises, or
 
 
 ##Sources :- 
-1. W3Schools
-2. GeekForGeeks
+1. W3Schools https://www.w3schools.com/r/default.asp
+2. GeekForGeeks https://www.geeksforgeeks.org/r-programming-for-data-science/?ref=ghm
 3. Youtube https://www.youtube.com/watch?v=Dhw4HAMDdvw&list=PLjVLYmrlmjGdmPrz0Lx7smkd0qIKHInOF&index=4
 
 

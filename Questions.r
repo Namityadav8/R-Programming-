@@ -46,3 +46,34 @@ print(my_array)
 #4 .
 
 
+# Date - 6 feb 2024
+# 1. create a matrix of 30 element
+# 2. name all rows and colums 
+# 3. access 3rd 5th 6th row 
+# 4. access 8th 1st 2nd and 4th column
+# 5. access element in the 3rd column and 3rd row
+# 6. access element in the 2nd row and 5th column
+# 7. modify element by 0 greater than 5
+# 8. modify element by 2 greater than 5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

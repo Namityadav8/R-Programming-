@@ -30,7 +30,19 @@ dimnames(my_array) <- list(row_names, col_names, layer_names)
 
 print(my_array)
 
+#3.
+# Create a 3-dimensional array with dimensions 4x4x5
+my_array <- array(0, dim = c(4, 4, 5))
 
 
+row_names <- c("Row1", "Row2", "Row3", "Row4")
+col_names <- c("Col1", "Col2", "Col3", "Col4")
+layer_names <- c("Layer1", "Layer2", "Layer3", "Layer4", "Layer5")
+
+dimnames(my_array) <- list(row_names, col_names, layer_names)
+
+print(my_array)
+
+#4 .
 
 

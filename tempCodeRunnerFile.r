@@ -1,4 +1,4 @@
-m1<-matrix((1:12),nrow=3,ncol=4,byrow=TRUE) #row wise
-
-rbind(m1, c(13,14,16,17))
-cbind(m1, c(17,18,120))
+b<-matrix((1:30) , nrow = 9 , ncol = 10)
+print(b)
+x <- t(b)
+print(x)

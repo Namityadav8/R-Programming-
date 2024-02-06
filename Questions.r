@@ -55,6 +55,41 @@ print(my_array)
 # 6. access element in the 2nd row and 5th column
 # 7. modify element by 0 greater than 5
 # 8. modify element by 2 greater than 5
+# 9. add two rows
+# 10. add three more columns
+# 11. transpose the matrix 
+# 12. delete 3rd row 
+# 13. delete 1st column
+# 14. create two matrix and perform all arthimetic operation
+
+# #solutions
+# a<-array(1:30)
+# print(a)
+
+# naming rows and columns 
+# row_names(a) <- c("Namit" , "Yadav")
+# col_names(a) <- c("a","b","c")
+b<-matrix((1:30) , nrow = 9 , ncol = 10)
+print(b)
+x <- t(b)
+print(x)
+# print(b[3,])
+# print(b[5,])
+# print(b[6,])
+# print(b[,8])
+# print(b[,1])
+# print(b[,4])
+# b[b>10] <- 20
+# print(b)
+
+# x <- transpose(b)
+# print(b)
+
+
+
+
+
+
 
 
 

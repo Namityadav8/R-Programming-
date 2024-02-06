@@ -1,6 +1,4 @@
-hisarray <- c(1:24)
-thisarray
+m1<-matrix((1:12),nrow=3,ncol=4,byrow=TRUE) #row wise
 
-# An array with more than one dimension
-multiarray <- array(thisarray, dim = c(4, 3, 2))
-print(multiarray[2,3,2])
+rbind(m1, c(13,14,16,17))
+cbind(m1, c(17,18,120))

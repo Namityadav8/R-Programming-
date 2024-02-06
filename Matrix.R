@@ -11,14 +11,9 @@
 
 
 # An array with one dimension with values ranging from 1 to 24
-thisarray <- c(1:24)
-# thisarray
+# matrix in r programing
+m1<-matrix((1:12),nrow=3,ncol=4,byrow=TRUE) #row wise
+# rbind adds another row while cbind adds another columns 
+rbind(m1, c(13,14,16,17))
+cbind(m1, c(17,18,120))
 
-# An array with more than one dimension
-multiarray <- array(thisarray, dim = c(4, 3, 2))
-# print(multiarray)
-for(x in multiarray){
-    print(x)
-    
-}
-print(multiarray[2,3,2])

@@ -71,8 +71,14 @@ print(my_array)
 # col_names(a) <- c("a","b","c")
 b<-matrix((1:30) , nrow = 9 , ncol = 10)
 print(b)
-x <- t(b)
-print(x)
+b[3,] = (b[1,] + b[2,])   # adding first two rows in third and then printing
+print(b)
+####transpose of a matrix
+# x <- t(b)
+# print(x)
+
+
+
 # print(b[3,])
 # print(b[5,])
 # print(b[6,])

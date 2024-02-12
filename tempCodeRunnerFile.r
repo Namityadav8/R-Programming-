@@ -1,2 +1,2 @@
-a<-"hello kaisa h"
-a
+b1<-c(1,100,10)
+print(b1)

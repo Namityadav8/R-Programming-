@@ -20,7 +20,7 @@ multiarray <- array(thisarray, dim = c(4, 3, 2))
 
 # An array with more than one dimension
 multiarray <- array(thisarray, dim = c(4, 3, 2))
-# print(multiarray)
+# print(multiarray) 
 for(x in multiarray){
     print(x)
     

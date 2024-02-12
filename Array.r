@@ -31,12 +31,16 @@ print(multiarray[2,3,2])
 
 
 
-v1<-c(1,2,34,5)
-#v1
-v2<-c(5,6,7,8,9,10)
-#v2
-v3<-array(c(v1,v2),dim=c(3,3,2))
-print(v3)
-# result <- apply(v3,c(1),sum)  #c(1) is for rows 
-result <- apply(v3,c(2),sum)  #c(1) is for rows 
-result <- 
+# v1<-c(1,2,34,5)
+# #v1
+# v2<-c(5,6,7,8,9,10)
+# #v2
+# v3<-array(c(v1,v2),dim=c(3,3,2))
+# print(v3)
+# # result <- apply(v3,c(1),sum)  #c(1) is for rows 
+# result <- apply(v3,c(2),sum)  #c(1) is for rows 
+
+
+a<-c("East","NOrth","North","South","East,","West")
+a<-c[]
+c<-factor()

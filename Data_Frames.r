@@ -1,0 +1,2 @@
+a<-data.frame(emp_id=c(1,2,4,6,8),emp_name=c("Sahil","Ankit","Anil","Namit"),emp_salary=c(10000,98000,110000,15000,12000),emp_address=c("Delhi","Mumbai","Rajasthan","Punjab","Goa"))
+subset(a,emp_salary>10000,select=c(-emp_name,-emp_address))

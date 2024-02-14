@@ -19,3 +19,5 @@ paste(text1, text2)
 f<-"Kesar"
 cat(f)  # paste basically adds all the strings into an single string and then prints it 
 paste(f)    # cat directly prints the concatenated string to the console 
+
+class(f)            # class is used for printing the datatype of any variable 

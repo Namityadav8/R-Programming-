@@ -17,3 +17,32 @@ cat(x,y)
 class(x)
 class(y)
 
+m<-"1376845"
+n<-as.integer(m)
+print(n)
+
+
+a<-2L
+b<-5L
+c<-a+b
+print(c)
+
+
+
+
+n<-4
+m<-as.complex(n)
+print(m)
+
+
+v<-as.complex(TRUE)
+print(v)
+
+
+a<-as.logical(23) # will return True if anything except 0 else FALse
+print(a)
+a<-as.logical(0)
+print(a)
+
+c<-as.character(TRUE)
+print(c)

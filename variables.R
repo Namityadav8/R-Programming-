@@ -29,7 +29,7 @@ print(c)
 
 
 
-
+plot(1:10)
 n<-4
 m<-as.complex(n)
 print(m)
@@ -46,3 +46,4 @@ print(a)
 
 c<-as.character(TRUE)
 print(c)
+d<- as.

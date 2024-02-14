@@ -1,3 +1,3 @@
-
-x<-10 ; y<-12
-print(x)
+f<-"Kesar"
+cat(f)  # basically 
+paste(f)

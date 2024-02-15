@@ -1,5 +1,2 @@
-
-x<- 1:23
-for(i in x){
-    print(i)
-}
+name <- readline(prompt = "Enter your name :")
+  name

@@ -19,37 +19,37 @@
 # Create a factor of 10 elements
 my_factor <- factor(1:10)
 
-# Access 8th value
+#2. Access 8th value
 print(my_factor[8])
 
-# Access 6th and 9th value
+#3. Access 6th and 9th value
 print(my_factor[c(6, 9)])
 
-# Access 1st, 2nd, 3rd, and 4th value
+#4. Access 1st, 2nd, 3rd, and 4th value 
 print(my_factor[1:4])
 
-# Access all values except 7th value
+#5. Access all values except 7th value
 print(my_factor[-7])
 
-# Access all values except 5th and 10th values
+#6. Access all values except 5th and 10th values
 print(my_factor[-c(5, 10)])
 
-# Access all values except 6th, 7th, 8th, 9th values
+#7. Access all values except 6th, 7th, 8th, 9th values
 print(my_factor[-c(6:9)])
 
-# Access all values except 2nd, 4th, and 6th
+#8. Access all values except 2nd, 4th, and 6th
 print(my_factor[-c(2, 4, 6)])
 
-# Access 2nd, 5th, and 8th element by using logical values
+#9. Access 2nd, 5th, and 8th element by using logical values
 print(my_factor[c(FALSE, TRUE, FALSE, FALSE, TRUE, FALSE, FALSE, TRUE, FALSE, FALSE)])
 
-# Modify the value of 3rd element
+#10. Modify the value of 3rd element
 my_factor[3] <- "Modified"
 
-# Modify the value of 7th element
+#11. Modify the value of 7th element
 my_factor[7] <- "Modified"
 
-# Add 3 more levels
+#12. Add 3 more levels
 my_factor <- factor(c(levels(my_factor), "Level11", "Level12", "Level13"))
 
 # After adding levels modify the value of 8th element

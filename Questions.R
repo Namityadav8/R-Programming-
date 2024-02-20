@@ -42,3 +42,16 @@ if(q>0){
 }else{
     print("Number is 0")
 }
+
+#5.
+vector<-c(2,3,4,56,8)
+a<-as.numeric(readline())
+if(a %in% vector){
+    if(a%%2==0){
+        print("Even")
+    }else{
+        print("Odd")
+    }
+}else{
+    print("number is not in vector")
+}

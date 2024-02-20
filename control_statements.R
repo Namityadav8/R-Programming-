@@ -1,4 +1,7 @@
-a<-20
-if(a>21){
-    print("it is greater than 15")
+a<- as.integer(readline())
+cat(a," is ")
+if(a%%2==0){
+    print("it is even")
+}else{
+    print("it is odd")
 }

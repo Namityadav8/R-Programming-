@@ -1,2 +1,3 @@
-a<-"r is used for handling statistical data"
-print(toupper(a))
+a<-c("namit","yadav","hellonamit","namityadav")
+b<-"namit"
+print(grep(b,a))

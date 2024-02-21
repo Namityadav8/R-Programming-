@@ -8,3 +8,5 @@ a()
 # we also have many built in function in R that we can apply on Strings
 #mathematical functions also exist in R 
 
+a<-"r is used for handling statistical data"
+print(toupper(a))

@@ -17,5 +17,5 @@ a<-c("namit","yadav","hellonamit","namityadav")
 b<-"namit"
 print(grep(b,a))
 a<-c("namit","yadav","hellonamit","namityadav")
-b<-"namit"
+b<-"^namit"
 print(grep(b,a))

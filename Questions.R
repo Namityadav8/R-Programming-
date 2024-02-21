@@ -55,3 +55,5 @@ if(a %in% vector){
 }else{
     print("number is not in vector")
 }
+
+

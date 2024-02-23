@@ -7,4 +7,30 @@ list1<-list(c("namit","amit","pamit") , c(23,56,64), list("B.Tech","MBA","Arch")
 
 #Naming of the vectors present in the list 
 names(list1)<-c("NAMES","MARKS","COURSES")
-print(list1)
+
+
+list1<-list(c("namit","amit","pamit") , c(23,56,64), list("B.Tech","MBA","Arch"))
+names(list1)<-c("NAMES","MARKS","COURSES")
+print(list1["MARKS"])
+
+
+
+
+a<-list(1,2,3,9,6)
+b<-list(2,4,5,6,8)
+print(b[c(-2,-4,-1)])
+c<-unlist(a)
+d<-unlist(b)
+e<-list(c,d)
+print(e)
+
+
+
+list1<-list(c("namit","amit","pamit") , c(23,56,64), list("B.Tech","MBA","Arch"))
+names(list1)<-c("NAMES","MARKS","COURSES")
+print(list1$NAMES)
+
+
+list1<-list(c("namit","amit","pamit") , c(23,56,64), list("B.Tech","MBA","Arch"))
+#how to access the elements inside the list which is having many list 
+print(list1[[3]][-2])

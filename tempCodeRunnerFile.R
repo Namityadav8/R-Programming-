@@ -1,5 +1,5 @@
-list1<-list(c("namit","amit","pamit") , c(23,56,64), list("B.Tech","MBA","Arch"))
 
-
-names(list1)<-c("NAMES","MARKS","COURSES")
-print(list1)
+a<-list("namit","yadav","data","science")
+b<-list("akm","cheetah","lucky")
+d<-c(a,b)
+print(length(d))

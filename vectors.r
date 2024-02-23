@@ -1,6 +1,7 @@
 a<-c(1,2,34,4)
 names(a)<-c("namt","kesar","namit","akm")
-print(a["akm"])  # it is basically a way for doing naming of elements also 
+a[2]<-"kesarreturns"
+print(a)  # it is basically a way for doing naming of elements also 
 
 # operation on vector
 

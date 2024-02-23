@@ -1,5 +1,4 @@
-
-a<-list("namit","yadav","data","science")
-b<-list("akm","cheetah","lucky")
-d<-c(a,b)
-print(length(d))
+a<-c(1,2,34,4)
+names(a)<-c("namt","kesar","namit","akm")
+a[2]<-"kesarreturns"
+print(a)

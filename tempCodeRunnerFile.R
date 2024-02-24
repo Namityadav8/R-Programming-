@@ -1,9 +1,2 @@
-a<-c(1:24)
-b<-array(a,dim=c(4,3,2))
-for(i in b){
-    if(i%%2==0){
-        print(i)
-    }else{
-        next
-    }   
-}
+b<-matrix(c(1,2,3,4,5,6,7,8,9,10),nrow=4,byrow=FALSE)
+print(b)

@@ -47,3 +47,18 @@ a<-1:24
 b<-array(a,dim=c(3,5,2))
 print(b)
 
+
+
+row_name<-c("r1","r2","r3")
+col_name<-c("c1","c2")
+y<-c(1,2,3,12,12,12)
+x<-matrix(y,nrow=3,ncol=2,byrow=TRUE,dimnames=list(row_name,col_name))
+print(12 %in% x)
+dim(x)
+length(x)
+
+x[2,2]<-"namit"  # updation of the value 
+print(x)
+print(x[-c(2),]) # deletion of the value 
+x[2,2]<-69
+print(x)

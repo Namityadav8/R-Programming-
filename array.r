@@ -77,7 +77,7 @@ print(nrow(x))
 
 
 
-# loop throughout a matrix 
+# loop throughout a matrix resolved
 
 y<-c(1,2,3,12,12,12)
 x<-matrix(y,nrow=3,ncol=2,byrow=TRUE)

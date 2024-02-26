@@ -66,23 +66,3 @@ print(x)
 
 
 
-
-row_name<-c("r1","r2","r3")
-col_name<-c("c1","c2")
-y<-c(1,2,3,12,12,12)
-x<-matrix(y,nrow=3,ncol=2,byrow=TRUE,dimnames=list(row_name,col_name))
-print(nrow(x))
-
-
-
-
-
-# loop throughout a matrix resolved
-
-y<-c(1,2,3,12,12,12)
-x<-matrix(y,nrow=3,ncol=2,byrow=TRUE)
-for(i in 1:nrow(x)){
-    for(j in 1:ncol(x)){     # here we have just used nrow() and ncol() function to find the number of row/col
-        print(x[i,j])
-    }
-}

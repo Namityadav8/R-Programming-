@@ -56,4 +56,21 @@ if(a %in% vector){
     print("number is not in vector")
 }
 
+#Some basic questions done in R
+# 10 examples for if statement take all inputs from user
+# check even and odd in case of vector by using if else statement
+# check the less than or greater than by using if else statement
+# check the number is present in vector or not by using if else statement
+# 5 e more examples for if else statement
+# check whether the number is positive, negative, or equals to zero by using else if note: take input from user
+# 5 more examples for  else if ladder
 
+
+#1. 
+
+a<-as.numeric(readline(prompt="enter a number "))
+if(a>0){
+    print("ho gaya ho gaya ")
+}else{
+    print("mar gaya .....")
+}

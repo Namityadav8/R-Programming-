@@ -1,3 +1,6 @@
-list1<-list(c("namit","amit","pamit") , c(23,56,64), list("B.Tech","MBA","Arch"))
-#how to access the elements inside the list which is having many list 
-print(list1[[3]][-2])
+a <- data.frame(
+  stud_name = c("namit", "aadi", "raj", "aman", "dhawan"),
+  stud_roll = c(23, 25, 69, 56, 76),
+  stud_marks = c(89, 98, 100, 78, 87)
+) 
+summary(a)

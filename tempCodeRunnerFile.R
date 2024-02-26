@@ -1,4 +1,5 @@
-
-a<-1:24
-b<-array(a,dim=c(3,5,2))
-print(b)
+a<-data.frame(
+    id = 1:3,
+    names=c("namit","aadi","cheetah")
+)
+print(a)

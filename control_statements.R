@@ -85,14 +85,14 @@ repeat{
   print(v)
   b<-b+1
 
-  if(b>5){
+  if(b>=10){
     break
   }
 }
 
 
 # Create a vector
-#ifelse use 
+#ifelse : go to each element of a vector and checks the condition and performs action like ternary operator 
 x <- c(1, 2, 3, 4, 5)
 
 # Apply ifelse() to the vector

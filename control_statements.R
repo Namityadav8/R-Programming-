@@ -66,3 +66,13 @@ while(a<20){
   print("Namit")
   a<-a+1
 }
+
+
+# using repeat loop 
+a<-as.numeric(readline(prompt = "Enter a number \t "))
+repeat{
+  print("hello")
+  if(a>0){
+    break
+  }
+}

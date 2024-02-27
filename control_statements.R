@@ -85,7 +85,7 @@ repeat{
   print(v)
   b<-b+1
 
-  if(b>=10){
+  if(b>11){
     break
   }
 }
@@ -99,3 +99,13 @@ x <- c(1, 2, 3, 4, 5)
 result <- ifelse(x > 3, "greater ", "less or equal ")
 
 print(result)
+
+
+# Categorize numerical values into bins
+grades <- c(75, 90, 60, 85, 45)
+result <- ifelse(grades >= 90, "A", 
+                 ifelse(grades >= 80, "B", 
+                        ifelse(grades >= 70, "C", 
+                               ifelse(grades >= 60, "D", "F"))))
+print(result)
+*

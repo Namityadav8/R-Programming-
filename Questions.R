@@ -74,3 +74,23 @@ if(a>0){
 }else{
     print("mar gaya .....")
 }
+
+
+a<-c(2,3,4,56,7)
+for(i in a){
+  if(i%%2==0){
+    cat(i," is even ")
+  }else{
+    cat(i," is odd ")
+  }
+}
+
+
+
+a<-as.numeric(readline())
+b<-as.numeric(readline())
+if(a>b){
+  print(a," greater than ",b)
+}else{
+  print(a," is smaller than ",b)
+}

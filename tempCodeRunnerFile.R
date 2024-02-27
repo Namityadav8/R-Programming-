@@ -1,6 +1,5 @@
-a<-as.numeric(readline(prompt="enter a number "))
-if(a>0){
-    print("ho gaya ho gaya ")
+if(a>b){
+  print(a," greater than ",b)
 }else{
-    print("mar gaya .....")
+  print(a," is smaller than ",b)
 }

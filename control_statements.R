@@ -58,3 +58,11 @@ repeat{
   }
 }
 print(x)
+
+
+# taking input and using while loop 
+a<-as.numeric(readline(prompt = "Enter a value"))
+while(a<20){
+  print("Namit")
+  a<-a+1
+}

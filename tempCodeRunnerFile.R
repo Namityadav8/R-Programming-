@@ -1,5 +1,5 @@
-if(a>b){
-  print(a," greater than ",b)
-}else{
-  print(a," is smaller than ",b)
+
+a<-as.numeric(readline(prompt = "Enter a value"))
+while(a<20){
+  print("Namit")
 }

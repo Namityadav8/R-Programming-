@@ -22,5 +22,10 @@ print(nchar(str))
 print(grep("Hello",str))
 print(grep)
 
-
+a<-c("namit","yadav","hellonamit","namityadav")
+b<-"namit"
+print(grep(b,a))
+a<-c("namit","yadav","hellonamit","namityadav")
+b<-"^namit"
+print(grep(b,a))
 

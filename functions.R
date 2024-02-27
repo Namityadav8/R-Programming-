@@ -11,11 +11,13 @@ a()
 a<-"r is used for handling statistical data"
 print(toupper(a))
 
-# grep function (inbuilt)
+b<-function(c){
+    if(c%%2==0){
+        print("It is even")
+    }else{
+        return(NA)
+    }
+}
 
-a<-c("namit","yadav","hellonamit","namityadav")
-b<-"namit"
-print(grep(b,a))
-a<-c("namit","yadav","hellonamit","namityadav")
-b<-"^namit"
-print(grep(b,a))
+b(24)
+

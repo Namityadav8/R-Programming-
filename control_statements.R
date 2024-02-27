@@ -76,3 +76,26 @@ repeat{
     break
   }
 }
+
+
+
+v<-c("hello","Loop")
+b<-2
+repeat{
+  print(v)
+  b<-b+1
+
+  if(b>5){
+    break
+  }
+}
+
+
+# Create a vector
+#ifelse use 
+x <- c(1, 2, 3, 4, 5)
+
+# Apply ifelse() to the vector
+result <- ifelse(x > 3, "greater ", "less or equal ")
+
+print(result)

@@ -101,7 +101,7 @@ result <- ifelse(x > 3, "greater ", "less or equal ")
 print(result)
 
 
-# Categorize numerical values into bins
+# nested iselse
 grades <- c(75, 90, 60, 85, 45)
 result <- ifelse(grades >= 90, "A", 
                  ifelse(grades >= 80, "B", 

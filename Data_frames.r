@@ -22,3 +22,5 @@ b <- head(a, 3) # printing elements upto particular index
 d <- tail(a,3) # printing elements from last index
 print(b)
 print(a$stud_marks) #usage of $ sign to access any particular list in data frame 
+
+

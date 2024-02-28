@@ -24,3 +24,14 @@ print(b)
 print(a$stud_marks) #usage of $ sign to access any particular list in data frame 
 
 
+
+
+# Create a data frame
+Data_Frame <- data.frame (
+  Training = c("Strength", "Stamina", "Other"),   # data frames will create data in form of columns 
+  Pulse = c(100, 150, 120),
+  Duration = c(60, 30, 45)
+)
+
+# Print the data frame
+Data_Frame

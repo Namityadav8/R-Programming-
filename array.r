@@ -20,7 +20,7 @@ col_name<-c("c1","c3")
 d<-array(c(a,b),dim=c(3,2,2),dimnames = list(row_name,col_name))
 
 
-d[1,1,1]<-"shree ram"
+d[1,1,1]<-"shree ram" 
 print(d)
 print(d[,,1])
 

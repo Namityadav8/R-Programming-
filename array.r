@@ -10,8 +10,6 @@ print(x)
 
 
 
-
-
 # some manipulations done on the arrays and accessing elements in array
 a<-c("namit","yadav","amit","pamit")
 b<-c("akm","aadi","raj","garv")

@@ -1,14 +1,16 @@
-Data_Frame <- data.frame (
-  Training = c("Strength", "Stamina", "Other"),   # data frames will create data in form of columns 
-  Pulse = c(100, 150, 120),
-  Duration = c(60, 30, 45)
-)
-print(Data_Frame)
-col <- data.frame(Data_Frame$Training,Data_Frame$Pulse)
-print(col)
+head(trees,n=10)
+tail(trees,n=7)
 
-print("Now printing the rows ")
+sd(trees$Height)
+mean(trees$Height)
+median(trees$Height)
+min(trees$Height)   
+max(trees$Height)
 
-x<- Data_Frame[c(1,3),]
-y<-Data_Frame[c(1,3),c(2,3)]
-print(y)
+# a<-subset(trees,Height>70)     # printing values of height > 70
+# print(a$Volume)
+
+# extract 1st and 6th column 
+# extract 7,11,15,21,31
+
+print(trees[,c(1,6)])

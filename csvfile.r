@@ -25,6 +25,7 @@ data<-read.csv(c:\Users\Namit Yadav\Downloads\Prostate_cancer.csv)
 # Use head function
 head(data)
 
+
 # Use tail function
 tail(data)
 

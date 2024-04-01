@@ -115,3 +115,9 @@ a=c("Saiful","Rahman")
 lapply(a,toupper)
 a1=c("SAJAJAM","AJSNSNS")
 lapply(a1,tolower)
+
+
+
+
+
+

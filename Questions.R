@@ -94,3 +94,9 @@ if(a>b){
 }else{
   print(a," is smaller than ",b)
 }
+
+
+
+
+# Sum of any row or column of any matrix 
+

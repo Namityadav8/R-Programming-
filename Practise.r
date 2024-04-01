@@ -11,6 +11,13 @@
 # result <- elseif("namit" %in% a , "ha hai", "na ni h")
 # result
 
+a<-3L
+c<-as.character(a)
 
-switch()
+b<- switch( c,
+    "3" = "namit",
+    "5" = "akm" 
+)
+
+print(b)
 

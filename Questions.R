@@ -98,5 +98,20 @@ if(a>b){
 
 
 
-# Sum of any row or column of any matrix 
+# # Sum of any row or column of any matrix 
+#apply function
+#apply(x,margin,function) margin 1 row mean row wise
+mat=matrix(1:10,nrow = 5,ncol = 6)
+apply(mat,1,sum)
+apply(mat,2,sum)
+apply(mat,1,mean)
+apply(mat,2,mean)
+apply(mat,1,median)
+apply(mat,1,function(x)x*2)
+apply(mat,2,function(x)x*2)
 
+lapply("kdsxmxsm",toupper)
+a=c("Saiful","Rahman")
+lapply(a,toupper)
+a1=c("SAJAJAM","AJSNSNS")
+lapply(a1,tolower)

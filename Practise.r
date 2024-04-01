@@ -7,7 +7,10 @@
 
 
 
-a<-c("namit","yadafv","akm","raj")
-print("namit" %in% a)
+# a<-c("namit","yadafv","akm","raj")
+# result <- elseif("namit" %in% a , "ha hai", "na ni h")
+# result
 
+
+switch()
 

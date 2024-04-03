@@ -53,8 +53,13 @@ print(length(d))
 a<-list()
 
 
-a<-list(c("NAMIT","AKM","KESAR","LUCKY")  , c(19,20,19,21))
+a<-list(c("NAMIT","AKM","KESAR","LUCKY")  , c(19,20,195,21))
+"AKM"  %in% a[[1]]
+append(a[[1]],"NIGGA")
+print(a)
 print(a[[2]][4])
+
+print(a[[2]][-c(1,2)]) ## will be removing the particular indexes elements from the second list 
 
 a[[1]][2] = "YADAV"
 print(a[[1]])
@@ -63,4 +68,28 @@ print(a[[1]])
 x<-1:10
 any(x==0)
 all(x==5)
+
+a<-list(c("NAMIT","AKM","KESAR","LUCKY")  , c(19,20,195,21))
+for(var in a[[1]]){
+  print(var)
+}
+# we can also access any particular elements in the list and then print them using for loop.
+
+a<-c("NAMIT","YADAV","LUCKY","RAJ")
+append(a,"RAO",after=1)
+print(a)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

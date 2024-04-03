@@ -56,8 +56,11 @@ a<-list()
 a<-list(c("NAMIT","AKM","KESAR","LUCKY")  , c(19,20,19,21))
 print(a[[2]][4])
 
+a[[1]][2] = "YADAV"
+print(a[[1]])
 
-
+#will return boolean value 
 x<-1:10
-all(x>5)
+any(x==0)
+all(x==5)
 

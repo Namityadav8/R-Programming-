@@ -85,6 +85,11 @@ m<-c("namit","yadav","hello","world")
 print(grep("hello",m))
 
 
+a<-as.integer(readline(prompt="Enter your number :"))
+paste(a+3)
+
+
+
 
 
 

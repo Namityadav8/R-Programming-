@@ -50,3 +50,31 @@ for(i in 1:nrow(x)){
         print(x[i,j])
     }
 }
+
+
+
+
+a<-matrix(1:9  , nrow = 3  , ncol = 3  , byrow = TRUE)
+print(a)
+a[a>5]<-20
+print(a)
+print(t(a))
+print(a[,2])
+
+
+
+thismatrix <- matrix(c("apple", "banana", "cherry", "orange","grape", "pineapple", "pear", "melon", "fig"), nrow = 3, ncol = 3)
+ print(thismatrix)
+thismatrix[c(1,2),]
+
+
+
+# Create two matrices
+mat1 <- matrix(1:4, ncol = 2)
+print(mat1)
+mat2 <- matrix(5:8, ncol = 2)
+print(mat2)
+
+# Combine matrices by rows
+combined <- cbind(mat1, mat2)
+print(combined)

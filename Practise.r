@@ -101,10 +101,16 @@ print(exp(2))
 a<- "Namit"
 print(substr(a,1,5))
 
+print(toupper(a))
 
+print(nchar(a))
 
+a<-b<-c<-"Hello"
+cat(a,b,c)
 
-
+a<-"all indians are my brother and sisters except for some people "
+paste(grep("xx",a))
+paste(grep("xx",a))
 
 
 

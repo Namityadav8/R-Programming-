@@ -88,6 +88,23 @@ print(grep("hello",m))
 a<-as.integer(readline(prompt="Enter your number :"))
 paste(a+3)
 
+#function in R for the sum of two variable 
+a<- function(x,y){
+    return (x+y)
+}
+
+a(3,4)
+
+
+print(exp(2))
+
+a<- "Namit"
+print(substr(a,1,5))
+
+
+
+
+
 
 
 

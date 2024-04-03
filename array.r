@@ -64,6 +64,7 @@ print(x[-c(2),]) # deletion of the value
 x[2,2]<-69
 print(x)
 
-
-
+a <- array(1:12, dim = c(3, 2))
+print(a)
+print(a[1,])
 

@@ -28,3 +28,24 @@ a*b
 
 a<-c(1,23,345,4,56,6)
 length(a)
+
+print(a[3])
+a[3] = 69
+print(a)
+
+
+a<-c(1,23,345,4,56,6)
+print(a[c(1,3,5)])
+print(a[-1])
+print(a[-c(1,3,5)])
+
+
+
+
+a<-c("NAMIT","YADAV","CODING")
+names(a)<-c("NAME","CAST","PROFE")
+print(a["NAME"])
+
+
+b<-rep(c(1,2,3)  , times = c(2,3,4))
+print(b)

@@ -72,13 +72,17 @@ print(floor(a))
 print(exp(a))
 
 
-a<-"hello this is namit yadav"
+a<-"hello this is namit yadav"                                   
 print(substr(a,2,10))
 
+x<-"namit is pursuing data science"
+print(toupper(x))
 
+y<-"NAMIT IS STUDYING B.TECH CSE FROM LPU"
+print(tolower(y))
 
-
-
+m<-c("namit","yadav","hello","world")
+print(grep("hello",m))
 
 
 

@@ -46,6 +46,7 @@ a<-c("NAMIT","YADAV","CODING")
 names(a)<-c("NAME","CAST","PROFE")
 print(a["NAME"])
 
-
+# for repetition of elements there are three ways to print it each times and times having c
 b<-rep(c(1,2,3)  , times = c(2,3,4))
 print(b)
+

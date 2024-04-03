@@ -37,7 +37,7 @@ print(list1[[3]][-2])
 
 
 
-a<-list("namit","yadav","ahir","akm","garv","raj","kesar","loda")
+a<-list("namit","yadav","ahir","akm","garv","raj","kesar")
 for(x in a){
   print(x)
 }
@@ -51,4 +51,13 @@ print(length(d))
 
 
 a<-list()
+
+
+a<-list(c("NAMIT","AKM","KESAR","LUCKY")  , c(19,20,19,21))
+print(a[[2]][4])
+
+
+
+x<-1:10
+all(x>5)
 

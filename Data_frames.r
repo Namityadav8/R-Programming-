@@ -51,3 +51,23 @@ a <- data.frame(
 )
 
 print(a)
+str(a)
+z<-data.frame(a$name,a$age)
+print(z)
+
+# data frame are the data structures having different types of data structure in columns
+x<-data.frame(
+  name=c("NAMIT","YADAV","RAO"),
+  age=c(19,20,21),
+  sex=c("MALE","FEMALE","TRANS")
+)
+
+print(x)
+print(x[,1])
+
+
+# if we want to access any particular columns of the data frame
+#first make another data frame which is having its values using $ 
+
+y<-data.frame(x$name,x$age)
+print(y)

@@ -117,7 +117,8 @@ a1=c("SAJAJAM","AJSNSNS")
 lapply(a1,tolower)  
 
 
-
+a<-as.Date(2012-04-23)
+print(a)
 
 
 

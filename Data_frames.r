@@ -41,3 +41,13 @@ print("Now printing the rows ")
 x<- Data_Frame[c(1,3),]
 y<-Data_Frame[c(1,3),3]
 print(y)
+
+
+
+a <- data.frame(
+  name = c("NAMIT", "NAMAN", "PAWAN"),
+  age = c(19, 20, 21),
+  gender = c("MALE", "MALE", "NON-BINARY")
+)
+
+print(a)

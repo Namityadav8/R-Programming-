@@ -63,8 +63,7 @@ x<-data.frame(
 )
 
 print(x)
-print(x[,1])
-
+print(x[c(1,2),])
 
 # if we want to access any particular columns of the data frame
 #first make another data frame which is having its values using $ 

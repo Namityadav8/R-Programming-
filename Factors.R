@@ -80,3 +80,5 @@ print(a)
 a<-gl(3,4,labels=c("a","b","c"))
 print(a)
 
+a<-gl(3,2,labels=c("Namit","Amit","Pamit"))
+print(a)

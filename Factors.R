@@ -64,14 +64,17 @@ my_factor <- factor(my_factor, levels = c("Modified", "Level11", "Level12", "Lev
 # Generate 4 factor levels and repeat values 5 times
 my_factor <- rep(factor(1:4), each = 5)
 
+a<-c("a","b","c","a")
+factor(a)
+
+a<-c("namit","naman","pawan")
+factor(a)
+
+factor(a,level=c("namit","naman","pawan"),label=c("me","friend","dont know"))
 
 
-
-
-
-
-
-
+a<-gl(3,1,labels=c("Ram","shyam","pawan"))
+print(a)
 
 
 

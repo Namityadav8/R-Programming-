@@ -77,4 +77,10 @@ print(mat2)
 
 # Combine matrices by rows
 combined <- cbind(mat1, mat2)
+rcombined<-rbind(mat1,mat2)
+print(rcombined)
 print(combined)
+
+
+
+

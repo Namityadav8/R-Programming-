@@ -77,5 +77,6 @@ a<-gl(3,1,labels=c("Ram","shyam","pawan"))
 print(a)
 
 
-
+a<-gl(3,4,labels=c("a","b","c"))
+print(a)
 

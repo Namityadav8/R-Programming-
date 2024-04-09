@@ -70,3 +70,26 @@ print(x[c(1,2),])
 
 y<-data.frame(x$name,x$age)
 print(y)
+
+
+
+a<-data.frame(
+  name=c("namit","naman","pawan"),
+  sex=c("male","cannot say","none"),
+  age=c(19,23,34)
+)
+print(a)
+print(a[c(1,2),])## accessing the values of any particular row or column
+print(a[c(2,3),c(1,3)])
+print(str(a))
+
+x<-data.frame(a$name,a$sex)
+print(x)
+
+
+y<-list("aman","male",23)
+city<-c("jaipur","delhi","lucknow")
+print(cbind(a,city))
+print(rbind(a,y))
+print(a[-c(2),])
+print(summary(a))

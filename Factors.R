@@ -65,3 +65,14 @@ my_factor <- factor(my_factor, levels = c("Modified", "Level11", "Level12", "Lev
 my_factor <- rep(factor(1:4), each = 5)
 
 
+
+
+
+
+
+
+
+
+
+
+

@@ -178,8 +178,18 @@ print(high_school_values)
 
 
 x<-c("NAMAN","AMAN","PAWAN")
-y<-factor(x,level=c("NAMAN","AMAN","PAWAN"),label=c("ME","KNOWN","RANDOM"))
+y<-factor(x,level=c("NAMAN","AMAN","PAWAN"),label=c("ME","KNOWN","RANDOM"),ordered=TRUE)
 print(y)
-
+# accessing the value of a factor using labels 
 z<-x[y=="ME"]
 print(z)
+
+
+
+
+
+music_genre <- factor(c("Jazz", "Rock", "Classic", "Classic", "Pop", "Jazz", "Rock", "Jazz"), levels = c("Classic", "Jazz", "Pop", "Rock", "Opera"))
+
+music_genre[3] <- "Opera"
+
+music_genre[3]

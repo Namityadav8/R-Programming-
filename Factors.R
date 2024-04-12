@@ -82,3 +82,32 @@ print(a)
 
 a<-gl(3,2,labels=c("Namit","Amit","Pamit"))
 print(a)
+
+
+a<-factor(c("A","b","c","f")  , level =c("low","med","high","top"),label=c("NAME","CLASS","AGE","SEX"))
+print(a)
+
+
+
+data_values <- c(1, 2, 3)
+
+levels <- c("low", "medium", "high")
+
+labels <- c("Poor", "Average", "Excellent")
+
+my_factor <- factor(data_values, levels = levels, labels = labels)
+
+print(my_factor)
+
+
+
+
+a <- factor(c(1, 2, 3, 4), label = c("NAME", "CLASS", "AGE", "SEX"))
+print(a)
+
+
+
+a<-c(1,2,3,4)
+
+b<-factor(a,levels=c(1,2,3,5),labels=c("A","B","C","D"))
+print(b)

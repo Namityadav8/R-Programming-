@@ -106,8 +106,80 @@ a <- factor(c(1, 2, 3, 4), label = c("NAME", "CLASS", "AGE", "SEX"))
 print(a)
 
 
-
 a<-c(1,2,3,4)
-
-b<-factor(a,levels=c(1,2,3,5),labels=c("A","B","C","D"))
+is.factor(a)
+factor(a)
+b<-factor(a,level=c(1,2,3,4),label=c("NAMIT","AMIT","PAMIT","PAWAN"))
 print(b)
+
+
+
+# Create a vector of categorical data
+gender <- c("Male", "Female", "Male", "Male", "Female")
+
+# Convert the vector into a factor
+gender_factor <- factor(gender)
+
+# Print the factor
+print(gender_factor)
+
+
+
+# Create an ordered factor
+temperature <- c("Low", "Medium", "High")
+temperature_factor <- factor(temperature, levels = c("Low", "Medium", "High"), ordered = TRUE)
+
+# Print the ordered factor
+print(temperature_factor)
+
+
+
+
+# Create a vector of categorical data
+education <- c("High School", "Bachelor's", "Master's", "MBA")
+
+# Convert the vector into a factor with specified levels and labels
+education_factor <- factor(education, levels = c("High School", "Bachelor's", "Master's", "PhD"), 
+                           labels = c("HS", "BA", "MA", "PhD"))
+
+# Print the factor
+print(education_factor)
+
+
+education <- c("High School", "Bachelor's", "Master's", "PhD")
+
+education_factor <- factor(education, levels = c("High School", "Bachelor's", "Master's", "PhD"), 
+                           labels = c("HS", "BA", "MA", "PhD"))
+
+print(education_factor)
+
+
+
+# Define the education vector
+education <- c("High School", "Bachelor's", "Master's", "PhD", "Bachelor's", "High School", "PhD")
+
+# Convert the vector into a factor with specified levels and labels
+education_factor <- factor(education, levels = c("High School", "Bachelor's", "Master's", "PhD"), 
+                           labels = c("HS", "BA", "MA", "PhD"))
+
+# Print the factor
+print(education_factor)
+
+# Access values of the "High School" level
+high_school_values <- education[education_factor == "HS"]
+
+# Print the values
+print(high_school_values)
+
+
+
+
+
+
+
+x<-c("NAMAN","AMAN","PAWAN")
+y<-factor(x,level=c("NAMAN","AMAN","PAWAN"),label=c("ME","KNOWN","RANDOM"))
+print(y)
+
+z<-x[y=="ME"]
+print(z)

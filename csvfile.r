@@ -3,9 +3,19 @@ a<-c(1,2,10,45,23,19,435,12,2,12,21,11)
 sort(a)
 rank(a)
 
+a<-read.csv(file.choose())
+head(a)
+view(a)
+a
 
-a<-read.csv("C:\\Users\\Namit Yadav\\Downloads\\1_lebron_james_shot_chart_1_2023.csv")
-print(a)
+b<-read.table(file="prostate_cancer.csv",header=T,sep=",")
+print(b)
+fix(b)
 
 
 
+
+m<-read.csv("C:\\Users\\Namit Yadav\\Downloads\\weedprices01012014.csv")
+print(m)
+
+n<-max(m$HighQ)

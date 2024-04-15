@@ -168,6 +168,39 @@ selected_data <- select(data, contains("G"))
 
 print(selected_data)
 
+m<-mutate()
+
+
+
+
+#e.g1 # Calculating mean of age
+s<-summarise(d, mean = mean(age))
+s
+# Calculating min of age
+s1<-summarise(d, med = min(age))
+s1
+# Calculating max of age
+s2<-summarise(d, med = max(age))
+s2
+# Calculating median of age
+s3<-summarise(d, med = median(age)) 
+s3
+
+
+
+#extract 4th column
+#extract all columns except 4th column
+#extract 1st, 3rd and 4th columns
+#extract all the columns starts with "s"
+#extract all the columns ends with "s"
+#extract all the columns ends with "h"
+#extract all the columns contains "l"
+#extract columns from 3 to 5
+#extract all the rows where species= setosa
+#find median of 1st column
+#find maximum value of 2nd column
+#find minimum value of 3rd column
+#find mean of 4th column
 
 
 

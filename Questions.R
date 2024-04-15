@@ -121,6 +121,54 @@ a<-as.Date(2012-04-23)
 print(a)
 
 
+install.packages("dplyr")
+library(dplyr)
+
+
+
+
+
+
+# Create a data frame with 5 rows and 10 columns containing meaningful data
+data <- data.frame(
+  Name = c("Alice", "Bob", "Charlie", "David", "Eva"),
+  Roll_Number = c(101, 102, 103, 104, 105),
+  Age = c(20, 22, 21, 23, 19),
+  Gender = c("Female", "Male", "Male", "Male", "Female"),
+  Course = c("Math", "Science", "History", "English", "Geography"),
+  Grade = c("A", "B", "B", "A", "A"),
+  Height_cm = c(165, 175, 170, 180, 160),
+  Weight_kg = c(55, 70, 65, 75, 50),
+  City = c("New York", "Los Angeles", "Chicago", "Houston", "Phoenix"),
+  GPA = c(3.8, 3.5, 3.6, 3.9, 4.0)
+)
+
+# Print the data frame
+library(dplyr)
+print(data)
+
+# Assuming your data frame is named 'data'
+selected_data <- select(data, 2, 4, 6, 8, 10)
+
+# Print the selected data
+print(selected_data)
+library(dplyr)
+
+selected_data <- select(data, starts_with("g"))
+
+print(selected_data)
+library(dplyr)
+
+selected_data <- select(data, -starts_with("G"))
+
+print(selected_data)
+library(dplyr)
+
+selected_data <- select(data, contains("G"))
+
+print(selected_data)
+
+
 
 
 

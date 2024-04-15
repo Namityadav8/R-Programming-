@@ -18,4 +18,6 @@ fix(b)
 m<-read.csv("C:\\Users\\Namit Yadav\\Downloads\\weedprices01012014.csv")
 print(m)
 
-n<-max(m$HighQ)
+#subset is used for returning that particular row 
+n<-subset(m,State=="Alaska"&MedQN<1000)
+print(n)

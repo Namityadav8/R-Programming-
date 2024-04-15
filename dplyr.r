@@ -1,2 +1,8 @@
-a<-read.csv(file.choose())
-print(a)
+install.packages("dplyr")
+any(grepl("dplyr",installed.packages()))
+
+
+library("dplyr")
+
+
+

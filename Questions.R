@@ -146,7 +146,7 @@ data <- data.frame(
 # Print the data frame
 library(dplyr)
 print(data)
-
+ 
 # Assuming your data frame is named 'data'
 selected_data <- select(data, 2, 4, 6, 8, 10)
 
@@ -260,7 +260,8 @@ df<-iris
 view(iris)
 str(iris)
 
-df<-select(sepal.length,petal.length,species)
+df<-select(sepal.length,petal.length,species)%>% filter(species="setosa" & petal.length >1.4 & sepal.length > 3.5)
+
 
 
 

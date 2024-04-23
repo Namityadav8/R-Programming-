@@ -6,6 +6,6 @@ result <-  barplot(a,main="Result",
         xlab="x-axis",
         ylab="y-axis",
         names.arg=c("sun","mon","tues","wed"),
-        col="Blue"
-
+        col="Pink"
 )
+

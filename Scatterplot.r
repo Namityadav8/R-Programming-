@@ -23,5 +23,19 @@ print(a)
 
 x<-c(6,12,8,9)
 y<-c(100,7,5,4)
-result<-plot(x,y,type="l",col="Blue",lwd=3)
+result<-plot(x,y,type="o",col="Blue",lwd=3)
 result<-plot(x,y,main="result1",type="s",col="black",lwd=3)
+result<-plot(x,y,type="l",col="blue",lwd=3,lty=1)
+result<-plot(x,y,type="l",col="blue",lwd=3,lty=1,pch=LETTERS[1:4],xlim=c(0,20),ylim=c(0,30))
+
+
+a<-c(10,20,30.40)
+labels<-c("a","b","c","d")
+pie3D(a,labels,main="PieChart",col=c("Blue","green","brown","black"))
+
+
+install.packages("plotrix")
+library("plotrix")
+a<-c(10,20,30.40)
+labels<-c("a","b","c","d")
+pie3D(a,main="PieChart",col=c("Blue","green","brown","black"))

@@ -140,5 +140,3 @@ cat("the number chosen in",a)
 
 
 
-
-

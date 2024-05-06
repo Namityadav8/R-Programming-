@@ -113,6 +113,8 @@ paste(grep("xx",a))
 paste(grep("xx",a))
 
 
-
+x<-"hi there i am namit yadav"
+grepl("namit",x)        # returns 1 , 0
+grep("namit",x)   # returns True False        # grep and grepl is used to find a char in a string 
 
 

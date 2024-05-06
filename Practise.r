@@ -117,4 +117,28 @@ x<-"hi there i am namit yadav"
 grepl("namit",x)        # returns 1 , 0
 grep("namit",x)   # returns True False        # grep and grepl is used to find a char in a string 
 
+print(typeof(x))
+a<-3
+# paste prints string while cat prints a normal 
+# Thats how we take input
+a<-as.numeric(readline(prompt="Enter your number :"))
+cat("the number chosen in",a)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

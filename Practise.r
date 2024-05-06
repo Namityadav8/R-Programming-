@@ -260,9 +260,19 @@ print(a$age)
 print(a[1,])  
 print(a[c(1,2),1])
 
+summary(a)
 
 
 
+# Sample data
+data_vector <- c(3, 1, 4, 1, 5, 9, 3)
 
+# Find minimum value
+minimum_value <- min(data_vector)
+print(minimum_value)  # Output: 1
+
+# Find maximum value
+maximum_value <- max(data_vector)
+print(maximum_value)  # Output: 9
 
 

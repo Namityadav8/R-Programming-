@@ -193,3 +193,6 @@ music_genre <- factor(c("Jazz", "Rock", "Classic", "Classic", "Pop", "Jazz", "Ro
 music_genre[3] <- "Opera"
 
 music_genre[3]
+
+
+a

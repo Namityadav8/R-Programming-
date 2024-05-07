@@ -21,3 +21,8 @@ print(m)
 #subset is used for returning that particular row 
 n<-subset(m,State=="Alaska"&MedQN<1000)
 print(n)
+
+
+a<-read.csv(file.choose())
+fix(a)
+    
